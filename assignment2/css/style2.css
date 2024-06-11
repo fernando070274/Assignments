@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    background-color: #f8f8f8;
+}
+/*changing font style*/
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p,li,a,label,input,button{
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* styling header*/
+header{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: #f8f8f8;
+}
+
+header > div{
+    flex-grow: 1;
+    height: 145px;
+    width: auto;
+}
+
+header > div > a > img{
+    height: 100%;
+    width: auto;
+}
+
+header > nav > menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+header > nav > menu > li{
+    padding: 0px 10px;
+    
+}
+
+header > nav > menu > li > a{
+    color: black;
+}
+/* detail when the cursor is over the list*/
+header > nav > menu > li > a:hover{
+    color: black;
+    background-color: rgba(255, 153, 0, 0.426);
+    border-radius: 5px;
+    
+}
+/* styling main title container*/
+.lesson-masthead{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(117, 49, 49);
+        height: 75vh;
+}
+
+.lesson-masthead h1{
+    color: #f8f8f8;
+    font-size: 60px;
+}
+
+.flex-cont-cont{
+    display: flex;
+}
+/* styling main elements*/
+main{
+    width: 75%;
+    padding-left: 15%;
+    background-color: wheat;
+}
+
+main > section{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+
+main > section > div{
+    width: 50%;
+    padding: 10px;
+}
+
+main > section > form > div > p{
+    font-size: 15px;
+}
+
+main > section > form > div > h3{
+    font-size: 25px;
+}
+/* styling aside elements*/
+aside{
+    width: 25%;
+    padding: 2% 15% 0px 0px;
+    background-color: wheat;
+}
+
+aside > article{
+    width: 90%;
+    margin: auto auto 15px auto;
+    text-align: center;
+}
+aside > article > div + div{
+    padding-top: 5%;
+}
+
+aside > article > div > form > h4{
+    font-size: 25px;
+}
+/* submit button / detail when the cursor is over the submit button(hover)*/
+.button:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+    margin-left: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+/* stylign footer elements*/
+footer{
+    display: flex;
+    align-items: center;
+}
+
+footer > div{
+    width: 25%;
+}
+
+footer > div > a > img{
+    width: auto;
+    height: 150px;
+}
+
+footer > div + div{
+    width: 50%;
+}
+
+footer > div + div > p{
+    font-size: 15px;
+}
+
+footer > div + div > h6{
+    font-size: 15px;
+}

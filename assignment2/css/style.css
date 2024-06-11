@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    background-color: #f8f8f8;
+}
+/*changing font style*/
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p,li,a{
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* styling header*/header{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: #f8f8f8;
+}
+
+header > div{
+    flex-grow: 1;
+    height: 145px;
+    width: auto;
+}
+
+header > div > a > img{
+    height: 100%;
+    width: auto;
+}
+
+header > nav > menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+header > nav > menu > li{
+    padding: 0px 10px;
+}
+
+header > nav > menu > li > a{
+    color: black;  
+}
+/* detail when the cursor is over the list(hover)*/
+header > nav > menu > li > a:hover{
+    color: black;
+    background-color: rgba(255, 153, 0, 0.426);
+    border-radius: 5px;
+    
+}
+/* styling main title container*/
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(117, 49, 49);
+    height: 75vh;
+}
+
+.title h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.flex-cont-cont{
+    display: flex;
+}
+/* main elements*/
+main{
+    width: 75%;
+}
+
+main > section > div > h2{
+    font-size:30px
+}
+
+main > section > div > p{
+    font-size:20px
+}
+
+main > section{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+
+main > section > div{
+    width: 50%;
+    padding: 10px;
+}
+
+main > section > div > img{
+    height: 50%;
+    width: 75%;
+    border-radius: 3%;
+}
+/* aside elements*/
+aside{
+    width: 25%;
+    padding: 2% 0px;
+    background-color: wheat;
+    border-radius: 0px 0px 0px 10px;
+}
+
+aside > article{
+    width: 90%;
+    margin: auto auto 15px auto;
+    text-align: center;
+}
+
+aside > article + article{
+    width: 90%;
+    margin: 15% auto 15px auto;
+    text-align: center;
+}
+
+aside > article + article + article{
+    width: 90%;
+    margin: 70% auto 15px auto;
+    text-align: center;
+}
+
+aside > article + article + article + article{
+    width: 90%;
+    margin: 70% auto 15px auto;
+    text-align: center;
+}
+/* footer elements*/
+footer{
+    display: flex;
+    align-items: center;
+}
+
+footer > div{
+    width: 25%;
+}
+
+footer > div > a > img{
+    width: auto;
+    height: 150px;
+}
+
+footer > div + div{
+    width: 50%;
+}
+
+footer > div + div > p{
+    font-size: 15px;
+}
+
+footer > div + div > h6{
+    font-size: 15px;
+}

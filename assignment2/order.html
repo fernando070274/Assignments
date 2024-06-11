@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofollow, noindex">
+    <meta name="description" content="Assignment 2">
+    <title>Assignment 2 | Pizza Shop</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="./img/plogo.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <!-- navegation menu-->
+            <menu>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="order.html">Order Now</a></li>
+                <li><a href="#">Sign In</a></li>
+            </menu>
+        </nav>
+    </header>
+    <!-- title/cover of website-->
+    <section class="lesson-masthead">
+        <h1>Order Now!</h1>
+    </section>
+    <div class="flex-cont-cont">
+    <main>
+        <!-- making the order-->
+        <section>
+            <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <h3>Select the pizza flavour:</h3>
+                <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                <label for="choiceone">Pepperoni</label>
+                <br>
+                <input type="checkbox" id="margherita" name="margherita" value="margherita 1">
+                <label for="choiceone">Margherita</label>
+                <br>
+                <input type="checkbox" id="fourcheese" name="fourcheese" value="fourcheese">
+                <label for="choiceone">Four Cheese</label>
+            </div>
+            <div>
+                <h3>Select the amount of pizzas:</h3>
+                <label for="">Amount</label>
+                <br>
+                <input type="number" name="quantity" min="1" max="100">
+            </div>
+            <div>
+                <h3>Select the size of the pizza(s)</h3>
+                <input type="radio" id="small" name="psize" value="small">
+                <label for="size">Small</label>
+                <br>
+                <input type="radio" id="medium" name="psize" value="medium">
+                <label for="size">Medium</label>
+                <br>
+                <input type="radio" id="large" name="psize" value="large">
+                <label for="size">Large</label>
+                <br>
+                <input type="radio" id="xlarge" name="psize" value="xlarge">
+                <label for="size">Extra Large</label>
+            </div>
+            <div>
+                <h3>Select the type of dough:</h3>
+                <input type="radio" id="sthin" name="dough" value="sthin">
+                <label for="dough">Super Thin</label>
+                <br>
+                <input type="radio" id="thin" name="dough" value="thin">
+                <label for="dough">Thin</label>
+                <br>
+                <input type="radio" id="thick" name="dough" value="thick">
+                <label for="dough">Thick</label>
+            </div>
+            <div>
+                <h3>Select the extra toppings:</h3>
+                <p>Each extra toppings cost $1, first one is free.</p>
+                <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                <label for="toppings">Pepperoni</label>
+                <br>
+                <input type="checkbox" id="olive" name="olive" value="olive">
+                <label for="toppings">Olives</label>
+                <br>
+                <input type="checkbox" id="onion" name="onion" value="onion">
+                <label for="toppings">Onion</label>
+                <br>
+                <input type="checkbox" id="ronion" name="ronion" value="ronion">
+                <label for="toppings">Red Onion</label>
+                <br>
+                <input type="checkbox" id="cheese" name="cheese" value="cheese">
+                <label for="toppings">Cheese</label>
+            </div>
+            <div>
+                <h3>Observations:</h3>
+                <p><textarea></textarea></p>
+            </div>
+            <div>
+                <button class="button">Submit</button>
+            </div>
+        </form>
+        </section>
+    </main>
+    <aside>
+        <!-- personal information section-->
+        <article>
+            <div>
+                <form action="#" method="post" enctype="multipart/form-data">
+                <h4>Contact Information:</h4>
+                <label for="">First and Last Name:</label>
+                <br>
+                <input type="text" name="name" required>
+                <br>
+                <label for="">Phone Number:</label>
+                <br>
+                <input type="tel" name="phone" pattern="[0-9]-{3}-[0-9]{3}-[0-9]{4}">
+                <br>
+                <label for="">E-mail:</label>
+                <br>
+                <input type="email" name="email" required>
+                <br>
+                <label for="">Address:</label>
+                <br>
+                <input type="text" name="address" required>
+                </form>
+            </div>  
+            <div>
+                <button class="button">Submit</button>
+            </div>
+        </article>
+    </aside>
+    </div>
+    <footer>
+        <div>
+            <a href="index.html"><img src="./img/plogo.png" alt="Logo"></a>
+        </div>
+        <!-- footer-->
+        <div>
+            <h6>Thanks for stopping by! Explore our delicious pizzas, made with passion and the finest ingredients. Order now and let your taste buds dance!</h6>
+            <p>Join our pizza community for exclusive deals, mouthwatering recipes, and a slice of pizza paradise delivered right to your inbox! </p>
+        </div>
+    </footer>
+</body>
+</html>
